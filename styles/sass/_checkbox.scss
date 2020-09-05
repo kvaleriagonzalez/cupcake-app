@@ -1,0 +1,41 @@
+.flex-box {
+display: flex;
+justify-content: end;
+
+    .box-style{
+        border:1px solid black;
+        background-color:white;
+        padding: 25px;
+        width:400px;
+        height: 450px;
+        font-size:16px;
+        font-family: 'Roboto', sans-serif;
+        position: relative;
+        top: 100px;
+
+            h2 {
+                width:70%;
+                font-size:25px;
+            }
+            h3{
+                margin:15px 5px 0 0;
+                font-weight: bold;
+                
+            }
+
+    }
+
+    .flex {
+        display:flex;
+
+        input[type="checkbox"]{
+            margin:5px;
+        }
+        div {
+            margin-bottom:10px;
+        }
+    }
+
+}
+
+
