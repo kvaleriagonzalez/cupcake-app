@@ -241,71 +241,94 @@ img {
   width: 100%;
 }
 
-h1 {
-  color: #EEAAED;
-  text-align: center;
-  font-size: 70px;
-  text-transform: capitalize;
-  font-family: 'Bungee Inline', cursive;
-  font-weight: lighter;
-  margin-top: 50px;
+.bakery {
+  width: 75%;
+  margin-top: 20px;
 }
 
-.flex-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
-}
-
-.flex-box .box-style {
-  border: 1px solid black;
-  background-color: white;
+.box-style {
   padding: 25px;
-  width: 400px;
-  height: 450px;
+  width: 50%;
+  height: 50%;
   font-size: 16px;
-  font-family: 'Roboto', sans-serif;
+  font-family: sans-serif;
   position: relative;
-  top: 100px;
+  bottom: 100px;
 }
 
-.flex-box .box-style h2 {
+.box-style h2 {
   width: 70%;
-  font-size: 25px;
+  font-size: 30px;
+  font-family: 'Playball', cursive,sans-serif;
 }
 
-.flex-box .box-style h3 {
+.box-style h3 {
   margin: 15px 5px 0 0;
   font-weight: bold;
+  font-family: 'Lato', sans-serif;
 }
 
-.flex-box .flex {
+.flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  font-family: 'Lato', sans-serif;
+  margin: 10px 0;
 }
 
-.flex-box .flex input[type="checkbox"] {
+.flex input[type="checkbox"] {
   margin: 5px;
 }
 
-.flex-box .flex div {
+.flex div {
   margin-bottom: 10px;
 }
 
-.options .smaller {
-  width: 3%;
+.flex-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.options .size {
-  width: 13%;
-}
-
-.options img {
+.options > img:nth-child(16) {
   position: relative;
-  top: 300px;
-  right: 100px;
+  z-index: 99;
+  width: 8%;
+  bottom: 441px;
+  left: 363px;
+}
+
+.options > img:nth-child(17) {
+  position: relative;
+  z-index: 99;
+  width: 8%;
+  bottom: 475px;
+  left: 290px;
+}
+
+.options > img:nth-child(18) {
+  position: relative;
+  z-index: 99;
+  width: 7%;
+  bottom: 475px;
+  left: 219px;
+}
+
+.options > img:nth-child(19) {
+  position: relative;
+  z-index: 99;
+  width: 2%;
+  bottom: 487px;
+  left: 174px;
+}
+
+.options > img:nth-child(20) {
+  position: relative;
+  z-index: 99;
+  width: 6%;
+  bottom: 420px;
+  left: 141px;
 }

@@ -1,25 +1,20 @@
-.flex-box {
-display: flex;
-justify-content: end;
-
-    .box-style{
-        border:1px solid black;
-        background-color:white;
+ .box-style{
         padding: 25px;
-        width:400px;
-        height: 450px;
+        width:50%;
+        height: 50%;
         font-size:16px;
-        font-family: 'Roboto', sans-serif;
+        font-family:sans-serif;
         position: relative;
-        top: 100px;
-
+        bottom: 100px;
             h2 {
                 width:70%;
-                font-size:25px;
+                font-size:30px;
+                font-family: 'Playball', cursive,sans-serif;
             }
             h3{
                 margin:15px 5px 0 0;
                 font-weight: bold;
+                font-family: 'Lato', sans-serif;
                 
             }
 
@@ -27,6 +22,8 @@ justify-content: end;
 
     .flex {
         display:flex;
+        font-family: 'Lato', sans-serif;
+        margin:10px 0;
 
         input[type="checkbox"]{
             margin:5px;
@@ -36,6 +33,7 @@ justify-content: end;
         }
     }
 
+.flex-div {
+display: flex;
+align-items: center;
 }
-
-

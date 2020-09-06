@@ -1,22 +1,22 @@
 
 // get document ready//
 $(document).ready(function () {
-      // Create an event listener for a 'checked' event//
-      $('input:checkbox').on('change',function () {
-            //create variable to match name and image//
-           const display = $(this).prop('name');
-           const value = $(this).value();
+      // Create an event listener for a 'change' event//
+      $('input:checkbox').change(function () {
+            //variable to match picture location-to display image when the option is clicked
+            const display = $(this).prop('name');
+            if ($(this).is(':checked'))
              // Display the image on the page!//
-            if (value === true) {
-                  // if value is true append image//
-                  $('div.options.photo').append(`<img src=./assets/${display}.png />`)
-                  // if value is false remove image//
-            if (value === false) {
+                  $('div.options.photo').append(`<img src=./assets/${display}.png/>`)
+            //remove image if another option is selected
+            else {
                    $(`img[src=./assets/${display}.png]`.remove());
 
-                  }
-            }
+           }  
       })
-      
 });
+
+
+
+
 

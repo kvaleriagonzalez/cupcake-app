@@ -1,19 +1,41 @@
 
-.options { 
-    
-    .smaller {
-    width:3%;
-    }   
-    .size{
-        width: 13%;
-    }
-   
-    img {
-        position: relative;
-        top: 300px;
-        right:100px;
-        
-    }
+.options > img:nth-child(16) {
+position: relative;
+z-index: 99;
+width: 8%;
+bottom: 441px;
+left: 363px;
 
 }
 
+.options > img:nth-child(17) {
+ position: relative;
+ z-index: 99;
+ width: 8%;
+ bottom: 475px;
+ left: 290px;
+}
+
+.options > img:nth-child(18) {
+ position: relative;
+ z-index: 99;
+ width: 7%;
+ bottom: 475px;
+ left: 219px;
+}
+
+.options > img:nth-child(19) {
+ position: relative;
+ z-index: 99;
+ width: 2%;
+ bottom: 487px;
+ left: 174px;
+}
+
+.options > img:nth-child(20) {
+position: relative;
+z-index: 99;
+width: 6%;
+bottom: 420px;
+left: 141px;
+}
