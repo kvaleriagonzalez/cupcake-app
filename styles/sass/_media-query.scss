@@ -1,0 +1,196 @@
+@media  (max-width: 1050px) {
+    body .bakery {
+    width: 500px;
+    }
+    .cupcake {
+    top: 446px;
+    width: 55px;
+    left: 263px;
+    }
+
+    .icing-position {
+    width: 54px;
+    left: 264px;
+    top: 423px;
+    }
+
+   .more-ingredients-position{
+    width: 12px;
+    left: 275px;
+    top: 431px;
+    }
+
+    .sprinkle-position {
+    width: 52px;
+    left: 265px;
+    top: 432px;
+    }
+
+    .ribbon-position {
+    width: 44px;
+    top: 480px;
+    left: 269px;
+    }
+
+    .flex-div {
+    margin-top: 100px;
+    }
+
+
+}
+
+@media (max-width: 750px){
+
+body .bakery {
+
+width: 400px;
+}
+.cupcake {
+
+top: 406px;
+width: 45px;
+left: 210px;
+}
+.icing-position {
+
+width: 46px;
+left: 210px;
+top: 388px;
+}
+.sprinkle-position {
+
+width: 41px;
+left: 212px;
+top: 393px;
+}
+.more-ingredients-position {
+
+width: 11px;
+left: 223px;
+top: 378px;
+}
+.ribbon-position {
+
+width: 33px;
+top: 440px;
+left: 216px;
+}
+}
+
+@media (max-width: 700px) {
+  .box-style {
+padding: -6px;
+font-size: 10px;
+}
+body .bakery {
+width: 350px;
+}
+
+.cupcake {
+top: 370px;
+left: 183px;
+}
+.icing-position {
+top: 352px;
+left: 183px;
+}
+.sprinkle-position {
+top: 352px;
+left: 184px;
+}
+.more-ingredients-position {
+left: 195px;
+top: 347px;
+}
+.ribbon-position {
+top: 405px;
+left: 190px;
+}
+
+}
+
+@media (max-width: 610px) {
+  .cupcake {
+
+top: 385px;
+}
+.icing-position {
+
+top: 368px;
+}
+.sprinkle-position {
+
+top: 370px;
+}
+.more-ingredients-position {
+
+top: 360px;
+}
+}
+
+
+@media (max-width: 500px) {
+body .bakery {
+width: 250px;
+}
+.cupcake {
+top: 300px;
+width: 30px;
+left: 134px;
+}
+.sprinkle-position {
+width: 25px;
+left: 135px;
+top: 291px;
+}
+.icing-position {
+width: 30px;
+left: 134px;
+top: 288px;
+}
+.more-ingredients-position {
+width: 8px;
+left: 139px;
+top: 281px;
+}
+.ribbon-position {
+width: 25px;
+top: 318px;
+left: 137px;
+}
+
+.box-style h3 {
+margin: 5px 5px 0 0;
+}
+.flex {
+margin: 2px 1px;
+}
+
+.box-style h2 {
+font-size: 25px;
+}
+
+}
+
+@media (max-width: 500px) {
+.cupcake {
+top: 300px;
+top: 312px;
+}
+.icing-position {
+top: 288px;
+top: 301px;
+}
+.sprinkle-position {
+top: 291px;
+top: 304px;
+}
+.ribbon-position {
+top: 318px;
+top: 329px;
+}
+.more-ingredients-position {
+top: 281px;
+top: 294px;
+}
+}

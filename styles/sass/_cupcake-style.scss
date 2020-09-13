@@ -1,41 +1,42 @@
 
-.options > img:nth-child(16) {
-position: relative;
+.cupcake, .icing-position, .sprinkle-position, .more-ingredients-position,.ribbon-position {
+    position: absolute;
+}
+
+.sprinkle-position, .more-ingredients-position, .ribbon-position {
 z-index: 99;
-width: 8%;
-bottom: 441px;
-left: 363px;
-
+}
+.cupcake {
+top: 469px;
+width: 82px;
+left: 423px;
 }
 
-.options > img:nth-child(17) {
- position: relative;
- z-index: 99;
- width: 8%;
- bottom: 475px;
- left: 290px;
+.icing-position {
+width: 77px;
+left: 428px;
+top: 443px;
 }
 
-.options > img:nth-child(18) {
- position: relative;
- z-index: 99;
- width: 7%;
- bottom: 475px;
- left: 219px;
+.sprinkle-position{
+ width: 65px;
+left: 428px;
+top: 453px;
 }
 
-.options > img:nth-child(19) {
- position: relative;
- z-index: 99;
- width: 2%;
- bottom: 487px;
- left: 174px;
+.more-ingredients-position {
+ width: 15px;
+ top: 444px;
+left: 448px;
 }
 
-.options > img:nth-child(20) {
-position: relative;
-z-index: 99;
-width: 6%;
-bottom: 420px;
-left: 141px;
+.ribbon-position {
+width: 54px;
+top: 533px;
+left: 437px;
+}
+
+
+input[type="radio"] {
+margin: 0 8px;
 }

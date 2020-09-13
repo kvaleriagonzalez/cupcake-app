@@ -1,11 +1,6 @@
- .box-style{
+ .box-style {
         padding: 25px;
-        width:50%;
-        height: 50%;
         font-size:16px;
-        font-family:sans-serif;
-        position: relative;
-        bottom: 100px;
             h2 {
                 width:70%;
                 font-size:30px;
@@ -36,4 +31,5 @@
 .flex-div {
 display: flex;
 align-items: center;
+justify-content: space-between;
 }
