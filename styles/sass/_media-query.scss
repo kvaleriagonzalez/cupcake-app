@@ -12,38 +12,34 @@ width: 54px;
 left: 264px;
 top: 423px;
 }
-
-   .more-ingredients-position{
-    width: 12px;
-    left: 275px;
-    top: 431px;
-    }
-
-    .sprinkle-position {
-    width: 52px;
-    left: 265px;
-    top: 432px;
-    }
-
-    .ribbon-position {
-    width: 44px;
-    top: 480px;
-    left: 269px;
-    }
-
-    .flex-div {
-    margin-top: 100px;
-    }
-    .box-style {
-      width: 38%;
-      padding: 18px 35px;
-    }
-    .box-style h2 {
-      font-size: 22px;
-    }
-    .box-style h3 {
-      font-size: 12px;
-    }
+.more-ingredients-position{
+width: 12px;
+left: 275px;
+top: 431px;
+}
+.sprinkle-position {
+width: 52px;
+left: 265px;
+top: 432px;
+}
+.ribbon-position {
+width: 44px;
+top: 480px;
+left: 269px;
+}
+.flex-div {
+margin-top: 100px;
+}
+.box-style {
+width: 38%;
+padding: 18px 35px;
+}
+.box-style h2 {
+font-size: 22px;
+}
+.box-style h3 {
+font-size: 12px;
+}
 }
 
 @media (max-width:860px) {
@@ -60,11 +56,9 @@ width: 34%;
 .flex {
 font-size: 12px;
 }
-
 }
 
 @media (max-width: 750px){
-
 body .bakery {
   width: 400px;
 }
@@ -84,19 +78,19 @@ body .bakery {
   top: 393px;
 }
 .more-ingredients-position {
-  width: 11px;
-  left: 223px;
-  top: 378px;
+width: 11px;
+left: 223px;
+top: 378px;
 }
 .ribbon-position {
-  width: 33px;
-  top: 440px;
-  left: 216px;
-  }
+width: 33px;
+top: 440px;
+left: 216px;
+}
 }
 
 @media (max-width: 700px) {
-  .box-style {
+.box-style {
 font-size: 10px;
 width: 44%;
 padding: 13px 29px;
@@ -130,13 +124,12 @@ padding-bottom: 50px;
 body .bakery {
 margin-top: -10px;
 }
-
 }
 
 @media (max-width: 610px) {
-  .cupcake {
- top: 349px;
- left: 300px;
+.cupcake {
+top: 349px;
+left: 300px;
 }
 .icing-position {
 top: 330px;
@@ -155,19 +148,18 @@ left: 307px;
 }
 }
 
-
 @media (max-width: 500px) {
 .cupcake {
-  left: 241px;
+left: 241px;
 }
 .sprinkle-position {
-  left: 242px;
+left: 242px;
 }
 .icing-position {
-  left: 241px;
+left: 241px;
 }
 .more-ingredients-position {
-  left: 256px;
+left: 256px;
 }
 .ribbon-position {
 left: 247px;
@@ -213,11 +205,10 @@ left: 220px;
 .more-ingredients-position {
 top: 326px;
 left: 225px;
-
 }
 }
 @media (max-width: 400px) {
-  .cupcake {
+.cupcake {
 left: 179px;
 }
 .sprinkle-position {
