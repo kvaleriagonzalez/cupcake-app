@@ -6,12 +6,13 @@
         border: 1px solid black;
         border-radius: 15px;
         margin-top: 50px;
+        margin-right:5%;
             h2 {
                 font-size:30px;
                 text-transform: uppercase;
             }
             h3{
-                margin:15px 5px 0 0;
+                margin: 8px 0;
                 font-weight: bold;
                 font-family: 'Lato', sans-serif;
                 text-transform: uppercase;
@@ -27,7 +28,7 @@
     .flex {
         display:flex;
         font-family: 'Lato', sans-serif;
-        margin:10px 0;
+        font-size: 16px;
 
         input[type="checkbox"]{
             margin:5px;
